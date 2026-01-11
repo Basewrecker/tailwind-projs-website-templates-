@@ -997,11 +997,17 @@ video {
 }
 
 .open .hamburger-bottom {
-  transform: rotate(-45deg) translateY(6px) translateX(-06px);
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
 
 .open .hamburger-middle {
   display: none;
+}
+
+.hover\:scale-\[1\.2\]:hover {
+  --tw-scale-x: 1.2;
+  --tw-scale-y: 1.2;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .focus\:outline-none:focus {
