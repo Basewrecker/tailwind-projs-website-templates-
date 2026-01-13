@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#cta {
+    background-image: url('../images/bg-boost-desktop.svg');
+    background-repeat: none;
+    background-size: cover;
+}
+
+.ficon:hover {
+    transform: scale(1.3);
+    transition: all 1s ease;
+}
